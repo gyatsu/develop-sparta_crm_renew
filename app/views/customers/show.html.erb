@@ -6,9 +6,10 @@
       <dd><%#= @customer.family_name %> <%#= @customer.given_name %></dd>
       <dd><%#= @customer.full_name %></dd>
       <dd><%= @customer.full_name("殿") %></dd>
-
       <dt>電子メール</dt>
       <dd><%= @customer.email %></dd>
+      <dt>会社名</dt>
+      <dd><%= @customer.company.name %></dd>
     </dl>
   </div>
 </div>
