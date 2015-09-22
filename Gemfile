@@ -51,5 +51,7 @@ end
 
 group :production do
   gem 'mysql2', '= 0.3.16'
+  gem 'faker'
+  gem 'faker-japanese'
 end
 
